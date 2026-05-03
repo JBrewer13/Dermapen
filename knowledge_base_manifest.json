@@ -1,0 +1,22 @@
+{
+  "project_title": "Dermapen-mediated cutaneous delivery manuscript",
+  "canonical_store": "github",
+  "repository": "JBrewer13/Dermapen",
+  "project_root": "/",
+  "default_branch": "main",
+  "preferred_update_mode": "direct_commit_with_explicit_user_permission",
+  "main_article_file": "manuscript/manuscript.md",
+  "last_updated": "2026-05-03",
+  "canonical_files": {
+    "literature_database": "literature_database.csv",
+    "citation_ledger": "citation_ledger.json",
+    "manuscript_handoff": "manuscript_handoff.md",
+    "background_knowledge": "background_knowledge.md",
+    "project_log": "project_log.md"
+  },
+  "status_notes": [
+    "Initial dummy scaffold created to test GitHub-backed workflows.",
+    "Uploaded Dermapen manuscript used only for topic orientation.",
+    "No full literature search or independent citation validation performed yet."
+  ]
+}
