@@ -18,5 +18,18 @@
     "Initial dummy scaffold created to test GitHub-backed workflows.",
     "Uploaded Dermapen manuscript used only for topic orientation.",
     "No full literature search or independent citation validation performed yet."
-  ]
+  ],
+ "automation_policy": {
+  "allow_without_reconfirmation": [
+    "literature_database.csv",
+    "citation_ledger.json",
+    "background_knowledge.md",
+    "manuscript_handoff.md",
+    "project_log.md"
+  ],
+  "protected_requires_explicit_instruction": [
+    "manuscript.md",
+  ],
+  "manuscript_editing_mode": "advisory_only"
+} 
 }
