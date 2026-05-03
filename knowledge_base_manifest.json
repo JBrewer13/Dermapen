@@ -14,10 +14,19 @@
     "background_knowledge": "background_knowledge.md",
     "project_log": "project_log.md"
   },
+  "workflow_outputs": {
+    "manuscript_analysis": "manuscript_analysis.md",
+    "claim_support_map": "claim_support_map.csv",
+    "reference_seed_list": "references_from_paper_seed_list.csv",
+    "reference_seed_list_readable": "references_from_paper_seed_list.md",
+    "citation_validation_summary": "citation_validation_notes/reference_validation_summary.md",
+    "ris_export": "exports/project_references.ris",
+    "key_paper_summaries": "key_paper_summaries/key_paper_summaries.md"
+  },
   "status_notes": [
-    "Initial dummy scaffold created to test GitHub-backed workflows.",
-    "Uploaded Dermapen manuscript used only for topic orientation.",
-    "No full literature search or independent citation validation performed yet."
+    "Literature package generated from uploaded Dermapen_endnote_v9 manuscript.",
+    "Search scope was seed-reference-based background study using the manuscript bibliography, not an unrestricted systematic review.",
+    "Citation records indicate bibliographic validation and claim-support scope separately."
   ],
   "automation_policy": {
     "allow_without_reconfirmation": [
@@ -25,7 +34,20 @@
       "citation_ledger.json",
       "background_knowledge.md",
       "manuscript_handoff.md",
-      "project_log.md"
+      "project_log.md",
+      "topic_summary.md",
+      "search_strategy.md",
+      "open_questions.md",
+      "inaccessible_literature.md",
+      "references_from_paper_seed_list.csv",
+      "references_from_paper_seed_list.md",
+      "manuscript_analysis.md",
+      "claim_support_map.csv",
+      "initial_validation_spot_checks.md",
+      "deep_research_prompt.md",
+      "citation_validation_notes/reference_validation_summary.md",
+      "exports/project_references.ris",
+      "key_paper_summaries/key_paper_summaries.md"
     ],
     "protected_requires_explicit_instruction": [
       "manuscript.md"
