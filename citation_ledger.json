@@ -1,5 +1,51 @@
 {
   "schema_version": "1.0",
   "project": "Dermapen-mediated cutaneous delivery manuscript",
-  "records": []
+  "records": [
+    {
+      "id": "prausnitz-2008-transdermal-drug-delivery",
+      "status": "validated",
+      "title": "Transdermal drug delivery",
+      "authors": [
+        "Prausnitz MR",
+        "Langer R"
+      ],
+      "year": 2008,
+      "journal": "Nature Biotechnology",
+      "volume": "26",
+      "issue": "11",
+      "pages": "1261-1268",
+      "doi": "10.1038/nbt.1504",
+      "pmid": "18997767",
+      "pmcid": "PMC2700785",
+      "role_in_project": "broad background",
+      "validation_sources": [
+        "PubMed",
+        "DOI metadata"
+      ],
+      "validation_notes": "Validated against PubMed and DOI metadata; suitable as broad background for transdermal drug delivery and microneedle-assisted barrier bypass context."
+    },
+    {
+      "id": "hadgraft-2001-skin-final-frontier",
+      "status": "validated",
+      "title": "Skin, the final frontier",
+      "authors": [
+        "Hadgraft J"
+      ],
+      "year": 2001,
+      "journal": "International Journal of Pharmaceutics",
+      "volume": "224",
+      "issue": "1-2",
+      "pages": "1-18",
+      "doi": "10.1016/S0378-5173(01)00731-1",
+      "pmid": "11512545",
+      "pmcid": "",
+      "role_in_project": "broad background",
+      "validation_sources": [
+        "PubMed",
+        "DOI metadata"
+      ],
+      "validation_notes": "Validated against PubMed and DOI metadata; suitable as broad background for skin barrier constraints in transdermal delivery."
+    }
+  ]
 }
